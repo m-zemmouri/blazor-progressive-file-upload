@@ -1,0 +1,160 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-16T17:28:21.9328243Z",
+  "analysisEndTime": "2024-08-16T17:28:42.2176378Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 3,
+      "issues": 2,
+      "incidents": 4,
+      "effort": 4
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 1,
+        "Optional": 0,
+        "Potential": 3,
+        "Information": 0
+      },
+      "category": {
+        "Project": 1,
+        "NuGet": 3
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "BlazorProgressiveFileUpload\\Client\\BlazorProgressiveFileUpload.Client.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 2,
+      "ruleInstances": [
+        {
+          "incidentId": "5efab9b6-5241-4e16-8c79-8c269524fb61",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BlazorProgressiveFileUpload\\Client\\BlazorProgressiveFileUpload.Client.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNetCore.Components.WebAssembly, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 8.0.8",
+              "protected": "Microsoft.AspNetCore.Components.WebAssembly, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 8.0.8"
+            },
+            "kind": "File",
+            "path": "BlazorProgressiveFileUpload\\Client\\BlazorProgressiveFileUpload.Client.csproj",
+            "snippet": "Microsoft.AspNetCore.Components.WebAssembly, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 8.0.8",
+            "protectedSnippet": "Microsoft.AspNetCore.Components.WebAssembly, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 8.0.8",
+            "label": "Microsoft.AspNetCore.Components.WebAssembly 7.0.3"
+          }
+        },
+        {
+          "incidentId": "9c23a47d-885e-4a6e-8f5f-c7afe97dfda3",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BlazorProgressiveFileUpload\\Client\\BlazorProgressiveFileUpload.Client.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 8.0.8",
+              "protected": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 8.0.8"
+            },
+            "kind": "File",
+            "path": "BlazorProgressiveFileUpload\\Client\\BlazorProgressiveFileUpload.Client.csproj",
+            "snippet": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 8.0.8",
+            "protectedSnippet": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 8.0.8",
+            "label": "Microsoft.AspNetCore.Components.WebAssembly.DevServer 7.0.3"
+          }
+        }
+      ]
+    },
+    {
+      "path": "BlazorProgressiveFileUpload\\Server\\BlazorProgressiveFileUpload.Server.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "503bd0a0-6d76-4726-a1a4-6e814db1b8e9",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BlazorProgressiveFileUpload\\Server\\BlazorProgressiveFileUpload.Server.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNetCore.Components.WebAssembly.Server, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.Server 8.0.8",
+              "protected": "Microsoft.AspNetCore.Components.WebAssembly.Server, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.Server 8.0.8"
+            },
+            "kind": "File",
+            "path": "BlazorProgressiveFileUpload\\Server\\BlazorProgressiveFileUpload.Server.csproj",
+            "snippet": "Microsoft.AspNetCore.Components.WebAssembly.Server, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.Server 8.0.8",
+            "protectedSnippet": "Microsoft.AspNetCore.Components.WebAssembly.Server, 7.0.3\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.Server 8.0.8",
+            "label": "Microsoft.AspNetCore.Components.WebAssembly.Server 7.0.3"
+          }
+        }
+      ]
+    },
+    {
+      "path": "BlazorProgressiveFileUpload\\Shared\\BlazorProgressiveFileUpload.Shared.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "fdc01a26-f853-4b6f-b348-cbeb49d6e8cc",
+          "ruleId": "Project.0002",
+          "projectPath": "BlazorProgressiveFileUpload\\Shared\\BlazorProgressiveFileUpload.Shared.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net7.0\nNew: net8.0",
+              "protected": "Current: net7.0\nNew: net8.0"
+            },
+            "kind": "File",
+            "path": "BlazorProgressiveFileUpload\\Shared\\BlazorProgressiveFileUpload.Shared.csproj",
+            "snippet": "Current: net7.0\nNew: net8.0",
+            "protectedSnippet": "Current: net7.0\nNew: net8.0"
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to correspinding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
