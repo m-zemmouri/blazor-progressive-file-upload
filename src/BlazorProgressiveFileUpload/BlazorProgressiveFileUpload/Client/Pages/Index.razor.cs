@@ -62,7 +62,7 @@ namespace BlazorProgressiveFileUpload.Client.Pages
                 content.Add(streamContent, "file", _selectedFile.Name);
 
                 // Submit the request
-                var response = await Client.PostAsync("weatherforecast", content);
+                var response = await Client.PostAsync("lot", content);
             }
           
 		}
